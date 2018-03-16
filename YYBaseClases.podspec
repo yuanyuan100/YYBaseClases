@@ -29,14 +29,19 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>'
+  s.prefix_header_file = 'YYBaseClases/Classes/YYBasePrefixHeader.pch'
+  s.exclude_files = 'YYBaseClases/Classes/YYBasePrefixHeader.pch'
 
-  s.source_files = 'YYBaseClases/Classes/**/*'
+  s.source_files = 'YYBaseClases/Classes/**/*.{h,m}'
+  s.public_header_files = 'YYBaseClases/Classes/**/*.h'
   
   # s.resource_bundles = {
   #   'YYBaseClases' => ['YYBaseClases/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'YYKit'
 end

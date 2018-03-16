@@ -1,0 +1,16 @@
+//
+//  YYBasePrefixHeader.pch
+//  YYBaseClases
+//
+//  Created by Yvan.Peng on 2018/3/9.
+//
+
+#ifndef YYBasePrefixHeader_pch
+#define YYBasePrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <YYKit/YYKit.h>
+
+#endif /* YYBasePrefixHeader_pch */
