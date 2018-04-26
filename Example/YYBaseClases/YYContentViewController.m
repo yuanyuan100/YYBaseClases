@@ -7,7 +7,7 @@
 //
 
 #import "YYContentViewController.h"
-#import <YYBaseClases/YYBaseClases-umbrella.h>
+#import <YYBaseClases/YYBaseClases.h>
 #import <YYKit/YYKit.h>
 
 @interface YYContentViewController ()
@@ -15,6 +15,10 @@
 @end
 
 @implementation YYContentViewController
+
+- (void)dealloc {
+    NSLog(@"%s--%d", __func__, __LINE__);
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -35,11 +39,16 @@
     button.yy_spaceUD = 10;
     button.backgroundColor = [UIColor blueColor];
     [button setTitle:@"hello" forState:UIControlStateNormal];
-    [button setImage:[UIImage imageWithColor:[UIColor redColor] size:CGSizeMake(30, 30)] forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"a_check"] forState:UIControlStateNormal];
     [self.view addSubview:button];
     
+    
+    UIView *view = [[NSBundle mainBundle] loadNibNamed:@"TestYYButtonUpImage" owner:self options:nil].firstObject;
+    view.frame =CGRectMake(201, 100, 100, 80);
+    [self.view addSubview:view];
+    
     YYButtonUpImage *button2 = [YYButtonUpImage buttonWithType:UIButtonTypeCustom];
-    button2.frame = CGRectMake(201, 100, 100, 80);
+    button2.frame = CGRectMake(100, 201, 100, 80);
     button2.backgroundColor = [UIColor blueColor];
     [button2 setTitle:@"hello" forState:UIControlStateNormal];
     [button2 setImage:[UIImage imageWithColor:[UIColor redColor] size:CGSizeMake(30, 30)] forState:UIControlStateNormal];

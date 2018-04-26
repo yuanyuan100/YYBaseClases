@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01766CB1D3D57E9E6ACD4D45 /* Pods_YYBaseClases_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF95D4FD08C114F2310A5300 /* Pods_YYBaseClases_Example.framework */; };
+		3C11D27D2091BBCE00C65FBD /* TestYYButtonUpImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C11D27C2091BBCE00C65FBD /* TestYYButtonUpImage.xib */; };
 		3C68550B20528813005507D1 /* YYContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C68550A20528813005507D1 /* YYContentViewController.m */; };
-		581A114A9D6426EA3DB19FF5 /* Pods_YYBaseClases_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39D37C8848F637628952F0F /* Pods_YYBaseClases_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,7 +25,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E680F6B8EBC199AA340C5032 /* Pods_YYBaseClases_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1B8AC40F07160901032C57 /* Pods_YYBaseClases_Tests.framework */; };
+		DB781F89A5C43DF471CE6CC0 /* Pods_YYBaseClases_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E218878A883001A45DEAB6BB /* Pods_YYBaseClases_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C11D27C2091BBCE00C65FBD /* TestYYButtonUpImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestYYButtonUpImage.xib; sourceTree = "<group>"; };
 		3C68550920528813005507D1 /* YYContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYContentViewController.h; sourceTree = "<group>"; };
 		3C68550A20528813005507D1 /* YYContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYContentViewController.m; sourceTree = "<group>"; };
 		41C458F79FEA2EBE815ACA6C /* Pods-YYBaseClases_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYBaseClases_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYBaseClases_Tests/Pods-YYBaseClases_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,10 +68,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FCCD5D00F337C70A83377C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A7B43CDBB5ABA5EC1FE3BF09 /* YYBaseClases.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYBaseClases.podspec; path = ../YYBaseClases.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AF1B8AC40F07160901032C57 /* Pods_YYBaseClases_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYBaseClases_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C39D37C8848F637628952F0F /* Pods_YYBaseClases_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYBaseClases_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF95D4FD08C114F2310A5300 /* Pods_YYBaseClases_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYBaseClases_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F42F02B3B271E25DDF48F9 /* Pods-YYBaseClases_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYBaseClases_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYBaseClases_Tests/Pods-YYBaseClases_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E13EB39679BEA1F0F794BD2A /* Pods-YYBaseClases_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYBaseClases_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYBaseClases_Example/Pods-YYBaseClases_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E218878A883001A45DEAB6BB /* Pods_YYBaseClases_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYBaseClases_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				581A114A9D6426EA3DB19FF5 /* Pods_YYBaseClases_Example.framework in Frameworks */,
+				01766CB1D3D57E9E6ACD4D45 /* Pods_YYBaseClases_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,13 +93,21 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E680F6B8EBC199AA340C5032 /* Pods_YYBaseClases_Tests.framework in Frameworks */,
+				DB781F89A5C43DF471CE6CC0 /* Pods_YYBaseClases_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C11D2792091B87400C65FBD /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				3C11D27C2091BBCE00C65FBD /* TestYYButtonUpImage.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -126,8 +136,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C39D37C8848F637628952F0F /* Pods_YYBaseClases_Example.framework */,
-				AF1B8AC40F07160901032C57 /* Pods_YYBaseClases_Tests.framework */,
+				BF95D4FD08C114F2310A5300 /* Pods_YYBaseClases_Example.framework */,
+				E218878A883001A45DEAB6BB /* Pods_YYBaseClases_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,16 +145,17 @@
 		6003F593195388D20070C39A /* Example for YYBaseClases */ = {
 			isa = PBXGroup;
 			children = (
+				3C11D2792091B87400C65FBD /* Xib */,
 				6003F59C195388D20070C39A /* YYAppDelegate.h */,
 				6003F59D195388D20070C39A /* YYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YYViewController.h */,
 				6003F5A6195388D20070C39A /* YYViewController.m */,
+				3C68550920528813005507D1 /* YYContentViewController.h */,
+				3C68550A20528813005507D1 /* YYContentViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				3C68550920528813005507D1 /* YYContentViewController.h */,
-				3C68550A20528813005507D1 /* YYContentViewController.m */,
 			);
 			name = "Example for YYBaseClases";
 			path = YYBaseClases;
@@ -284,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C11D27D2091BBCE00C65FBD /* TestYYButtonUpImage.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -326,9 +338,74 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YYBaseClases_Example/Pods-YYBaseClases_Example-resources.sh",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_check@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_navbar_back@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_navbar_service@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_activity@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_enter@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_head_l@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_head_s@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_Invisible@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_list_about@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_list_message@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_list_news@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_list_setting@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_reword@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_task@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/a_personal_vasual@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@2x/Group 6 Copy 14@2x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_check@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_navbar_back@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_navbar_service@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_activity@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_enter@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_head_l@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_head_s@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_Invisible@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_list_about@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_list_message@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_list_news@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_list_setting@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_reword@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_task@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/a_personal_vasual@3x.png",
+				"${PODS_ROOT}/../../YYBaseClases/Assets/@3x/Group 6 Copy 14@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_check@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_navbar_back@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_navbar_service@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_activity@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_enter@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_head_l@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_head_s@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_Invisible@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_list_about@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_list_message@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_list_news@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_list_setting@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_reword@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_task@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_vasual@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Group 6 Copy 14@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_check@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_navbar_back@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_navbar_service@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_activity@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_enter@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_head_l@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_head_s@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_Invisible@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_list_about@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_list_message@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_list_news@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_list_setting@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_reword@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_task@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/a_personal_vasual@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Group 6 Copy 14@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

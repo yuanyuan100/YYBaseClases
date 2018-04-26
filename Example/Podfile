@@ -6,9 +6,9 @@ target 'YYBaseClases_Example' do
   target 'YYBaseClases_Tests' do
     inherit! :search_paths
 
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'FBSnapshotTestCase'
-    pod 'Expecta+Snapshots'
+#    pod 'Specta'
+#    pod 'Expecta'
+#    pod 'FBSnapshotTestCase'
+#    pod 'Expecta+Snapshots'
   end
 end

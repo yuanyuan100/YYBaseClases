@@ -1,15 +1,4 @@
 PODS:
-  - Expecta (1.0.6)
-  - Expecta+Snapshots (3.1.1):
-    - Expecta (~> 1.0)
-    - FBSnapshotTestCase/Core (~> 2.0)
-    - Specta (~> 1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - Specta (1.0.7)
   - YYBaseClases (0.1.0):
     - YYKit
   - YYKit (1.0.9):
@@ -17,10 +6,6 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
-  - Expecta
-  - Expecta+Snapshots
-  - FBSnapshotTestCase
-  - Specta
   - YYBaseClases (from `../`)
 
 EXTERNAL SOURCES:
@@ -28,13 +13,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  YYBaseClases: a73b23dc3ca25e361542b28bbe31fa91b3fcddf3
+  YYBaseClases: 6a8a7aa98d2badce51d2f7f2cc47457ef6b4e265
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: ec73981586266844c1ae4c701854380297b3e48f
+PODFILE CHECKSUM: d04bfaf8ffbdedab0282e28115ca1198bb335b24
 
 COCOAPODS: 1.4.0

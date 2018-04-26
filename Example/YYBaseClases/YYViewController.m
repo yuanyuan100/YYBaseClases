@@ -11,6 +11,7 @@
 
 @interface YYViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, copy) NSArray *dataSource;
+@property (nonatomic, copy) NSArray *titles;
 @end
 
 @implementation YYViewController
@@ -19,7 +20,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.dataSource = @[@"YYButtonUpImage"];
+    self.dataSource = @[
+                        @"YYButtonUpImage"
+                        ];
+    
+    
+    self.titles     = @[
+                        @"图片在上,标题在下"
+                        ];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,7 +46,7 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
     }
-    cell.textLabel.text = self.dataSource[indexPath.row];
+    cell.textLabel.text = self.titles[indexPath.row];
     return cell;
 }
 

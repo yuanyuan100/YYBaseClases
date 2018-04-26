@@ -22,26 +22,23 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/yuanyuan100/YYBaseClases'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yvan.Peng' => '469092943@qq.com' }
   s.source           = { :git => 'https://github.com/yuanyuan100/YYBaseClases.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>'
+  
   s.prefix_header_file = 'YYBaseClases/Classes/YYBasePrefixHeader.pch'
-  s.exclude_files = 'YYBaseClases/Classes/YYBasePrefixHeader.pch'
+  s.prefix_header_contents = '#import <UIKit/UIKit.h>', '#import <Foundation/Foundation.h>', '#import <YYKit/YYKit.h>'
 
   s.source_files = 'YYBaseClases/Classes/**/*.{h,m}'
+  s.exclude_files = 'YYBaseClases/Classes/YYBasePrefixHeader.pch'
+  
   s.public_header_files = 'YYBaseClases/Classes/**/*.h'
   
-  # s.resource_bundles = {
-  #   'YYBaseClases' => ['YYBaseClases/Assets/*.png']
-  # }
+  #s.resources = 'YYBaseClases/Assets/**/*.{png}'
 
-
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'Foundation'
+  
   s.dependency 'YYKit'
 end
